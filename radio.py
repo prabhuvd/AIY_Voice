@@ -5,6 +5,8 @@ Radio Class allows user to configure NXP RF receiver.
  
 @author: pdesai
 """
+# This is to support python 2 style of print functions.
+from __future__ import print_function
 import serial
 import time
 import sys

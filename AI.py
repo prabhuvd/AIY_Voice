@@ -3,6 +3,8 @@ Created on Mar 28, 2018
 
 @author: gjpqbv
 '''
+# This is to support python 2 style of print functions.
+from __future__ import print_function
 from numpy.random import random
 class AICommands:
     _list_of_commands=["Send 100 RKE frames every 100 ms",

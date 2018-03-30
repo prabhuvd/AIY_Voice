@@ -3,6 +3,8 @@ Created on Mar 27, 2018
 
 @author: gjpqbv
 '''
+# This is to support python 2 style of print functions.
+from __future__ import print_function
 import re
 import time
 import irec_config
